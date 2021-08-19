@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Son with Mirai</title>
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="stylesheet" href="/assets/css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="/assets/fonts/themify-icons/themify-icons.css"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <ul id="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#story">Story</a></li>
+          <li><a href="#place">Place</a></li>
+          <li><a href="#video">Video</a></li>
+          <li>
+            <button class="js-more-btn">More</button>
+          </li>
+        </ul>
+
+        <div class="search">
+          <i class="ti-search"></i>
+        </div>
+      </div>
+
+      <div id="slider">
+        <div class="text-content"></div>
+      </div>
+
+      <div id="content">
+        <div id="story" class="content-section">
+          <h2 class="sec-heading">Son and Mirai</h2>
+          <p class="sec-sub-heading">Comedian couple</p>
+          <p class="about-us">
+            We knew and met each other thank to our friends, we been together
+            after few months chatting. Hope that we can been together for a long
+            long time and always be happy like now. "I love Thanh so much and
+            always want to be with her" - Son.
+          </p>
+
+          <div class="introduction">
+            <div class="member">
+              <p class="name">Hoang Son</p>
+              <img src="/assets/img/Son.jpg" alt="Son-image" class="avatar" />
+            </div>
+            <div class="member">
+              <p class="name">Le Thanh</p>
+              <img
+                src="/assets/img/Thanh.jpg"
+                alt="Thanh-image"
+                class="avatar"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div id="place" class="video-section">
+          <div class="content-section">
+            <h2 class="sec-heading">Some special days</h2>
+            <p class="sec-sub-heading">Days to create memories</p>
+
+            <ul class="dates">
+              <li>February <span class="birthday">Son's Birthday</span></li>
+              <li>October <span class="birthday">Thanh's Birthday</span></li>
+              <li>June <span class="birthday">First day in love</span></li>
+            </ul>
+
+            <div class="place-list">
+              <div class="place-item">
+                <img
+                  src="/assets/img/da-lat.jpg"
+                  alt="Da Lat"
+                  class="place-img"
+                />
+                <div class="description">
+                  <h3 class="place-heading">Da Lat</h3>
+                  <p class="place-description">
+                    The place I want to go with her for the best memories
+                  </p>
+                  <button class="see-more-btn js-see-more">Set reminder</button>
+                </div>
+              </div>
+
+              <div class="place-item">
+                <img
+                  src="/assets/img/saigon.jpg"
+                  alt="Da Lat"
+                  class="place-img"
+                />
+                <div class="description">
+                  <h3 class="place-heading">Sai Gon</h3>
+                  <p class="place-description">
+                    I am studying here, hope she can go with me
+                  </p>
+                  <button class="see-more-btn js-see-more">Set reminder</button>
+                </div>
+              </div>
+
+              <div class="place-item">
+                <img
+                  src="/assets/img/Korea.jpg"
+                  alt="Da Lat"
+                  class="place-img"
+                />
+                <div class="description">
+                  <h3 class="place-heading">Korea</h3>
+                  <p class="place-description">
+                    The first oversea place that we want to visit together
+                  </p>
+                  <button class="see-more-btn js-see-more">Set reminder</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="video" class="content-section">
+          <h2 class="sec-heading">Our dating video</h2>
+          <p class="sec-sub-heading">A funny love story</p>
+          <video
+            controls
+            class="story-video"
+            src="/assets/img/animation-video.mp4"
+          ></video>
+        </div>
+      </div>
+
+      <div id="footer">
+        <div class="footer-content">
+          <h2>Follow us on</h2>
+          <div class="footer-icon">
+            <i class="ti-facebook"></i>
+            <i class="ti-instagram"></i>
+            <i class="ti-youtube"></i>
+          </div>
+          <p>Thanks for coming to our page</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal js-modal">
+      <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+          <i class="ti-close"></i>
+        </div>
+        <header class="modal-header">
+          <i class="ti-bag"></i>
+          Dating time
+        </header>
+
+        <div class="modal-body">
+          <label for="where" class="modal-lable">
+            <i class="ti-shopping-cart"></i>
+            Where do you want to go ?
+          </label>
+          <input
+            id="where"
+            type="text"
+            class="modal-input"
+            placeholder="Where ?"
+          />
+          <label for="time" class="modal-lable">
+            <i class="ti-shopping-cart"></i>
+            What time ?
+          </label>
+          <input
+            id="time"
+            type="text"
+            class="modal-input"
+            placeholder="Time ?"
+          />
+
+          <button id="set-date">Set reminder</button>
+        </div>
+
+        <footer class="modal-footer">
+          Need
+          <a href="#">help?</a>
+        </footer>
+      </div>
+    </div>
+
+    <div class="network-modal">
+      <div class="network-modal-container">
+        <div class="network-modal-close js-network-modal-close">
+          <i class="ti-close"></i>
+        </div>
+        <header class="network-modal-header">
+          <i class="ti-world"></i>
+          Social Network
+        </header>
+        <div class="network-modal-body">
+          <div class="social-item">
+            <i class="social-icon ti-facebook"></i>
+            <div class="social-link-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100010588921681"
+                class="social-link"
+                >Nguyễn Hoàng Sơn</a
+              >
+              <a href="https://www.facebook.com/ltanhnee" class="social-link"
+                >Lương Thị Lê Thanh</a
+              >
+            </div>
+          </div>
+
+          <div class="social-item">
+            <i class="social-icon ti-instagram"></i>
+            <div class="social-link-item">
+              <a
+                href="https://www.instagram.com/hoangson_0802/"
+                class="social-link"
+                >hoangson_0802</a
+              >
+              <a href="https://www.instagram.com/ltanhah/" class="social-link"
+                >ltanhah</a
+              >
+            </div>
+          </div>
+
+          <div class="social-item">
+            <i class="social-icon ti-youtube"></i>
+            <div class="social-link-item">
+              <a href="" class="social-link">MiraiwSon</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const seeBtns = document.querySelectorAll(".js-see-more");
+      const modal = document.querySelector(".js-modal");
+      const close = document.querySelector(".js-modal-close");
+      const modalCon = document.querySelector(".js-modal-container");
+      function showSeeMore() {
+        modal.classList.add("open");
+      }
+
+      function hideSeeMore() {
+        modal.classList.remove("open");
+      }
+
+      for (const seeBtn of seeBtns) {
+        seeBtn.addEventListener("click", showSeeMore);
+      }
+
+      close.addEventListener("click", hideSeeMore);
+      modal.addEventListener("click", hideSeeMore);
+      modalCon.addEventListener("click", function (event) {
+        event.stopPropagation();
+      });
+    </script>
+
+    <script>
+      const networkModal = document.querySelector(".network-modal");
+      const moreBtn = document.querySelector(".js-more-btn");
+      const closeBtn = document.querySelector(".js-network-modal-close");
+
+      function openNetwork() {
+        networkModal.style.display = "flex";
+      }
+
+      function closeNetwork() {
+        networkModal.style.display = "none";
+      }
+
+      moreBtn.addEventListener("click", openNetwork);
+      closeBtn.addEventListener("click", closeNetwork);
+    </script>
+  </body>
+</html>
