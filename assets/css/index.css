@@ -99,7 +99,7 @@ html {
   margin-top: 46px;
   padding-top: 50%;
   position: relative;
-  background: url("/assets/img/banner.jpg") top center / cover no-repeat;
+  background: url("../img/banner.jpg") top center / cover no-repeat;
 }
 
 #content {
